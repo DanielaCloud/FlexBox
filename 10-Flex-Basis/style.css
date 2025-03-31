@@ -1,0 +1,46 @@
+/* 
+  Flex Basis
+  
+  Es una de las tres propiedades que reciben los elementos dentro de un contenedor con display flex. 
+  Flex basis -> Define el tamaño inicial del elemento, ante de aplicar grow o shrink.
+
+  * Puede recibir valores como auto, px, %, etc...
+  * Es similar a Width heigt, pero se usa en un entorno flex. Y elige comportarse deacuerdo a la direccion del eje principal.
+
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: burlywood;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+
+  background-color: darkcyan;
+}
+
+.item-1 {
+  flex-basis: 50px;
+}
+
+.item-2 {
+  flex-basis: 40%;
+}
+
+.item-3 {
+  flex-basis: 4rem;
+}
+
+.item-4 {
+  flex-basis: 8em;
+}
