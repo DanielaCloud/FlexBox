@@ -44,3 +44,19 @@ body {
 .item-4 {
   flex-basis: 8em;
 }
+
+/* 
+Existe un short hand para estas tres propiedades: Flex-grow, flex: flex-grow - Flex-shrink - Flex-basis
+
+.item-1 {
+ flex: 0 1 200px
+}
+ 
+.item-2 {
+ flex: 1 1 50%;
+}
+
+ .item-3 {
+  flex: 1 0 24rem;
+}
+ */
