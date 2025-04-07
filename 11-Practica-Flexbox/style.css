@@ -1,3 +1,126 @@
+/* Resset Basico */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: brown;
+  font-family: sans-serif;
+  background-color: lightyellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: lightpink;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  border-bottom: 1x solid dimgray;
+}
+
+h1 {
+  color: linen;
+}
+
+nav {
+  display: flex;
+  gap: 1 rem; /* 16px */
+}
+
+a {
+  color: lightslategray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+aside {
+  padding: 1rem;
+  background-color: palevioletred;
+}
+
+h2 {
+  color: lemonchiffon;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li{
+  color: dimgray(12, 9, 33);
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: flex-start;
+  background-color: plum;
+}
+
+.card {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: dimgray;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  color: darkslategray
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+div {
+  background-color: lightgoldenrodyellow;
+}
+
+.copyright {
+  background-color: plum;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem; 
+}
+
+.socialmedia a {
+  font-size: 1.5rem;
+  padding: 0.5rem;
 }
